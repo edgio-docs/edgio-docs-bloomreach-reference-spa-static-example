@@ -13,10 +13,10 @@ Read the full [guide](https://docs.layer0.co/guides/bloomreach) on Layer0
 Copy `.env.dist` file to `.env` and specify the brX SaaS instance to fetch the page model from:
 
 ```bash
-# REACT_APP_BRXM_ENDPOINT=https://jeff-patzer-bloomreach-layer0-example-saas-default.layer0-limelight.link/api
-# BRXM_ENDPOINT=trial-tnk8sgqr.bloomreach.io
-# REACT_APP_GRAPHQL_SERVICE_URL=https://jeff-patzer-bloomreach-layer0-example-saas-default.layer0-limelight.link/graphql
-# GRAPHQL_SERVICE_URL=graphql.trial-tnk8sgqr.bloomreach.io
+REACT_APP_BRXM_ENDPOINT: https://layer0-docs-bloomreach-layer0-example-saas-default.layer0-limelight.link/api
+BRXM_ENDPOINT: trial-tnk8sgqr.bloomreach.io
+REACT_APP_GRAPHQL_SERVICE_URL: https://layer0-docs-bloomreach-layer0-example-saas-default.layer0-limelight.link/graphql
+GRAPHQL_SERVICE_URL: graphql.trial-tnk8sgqr.bloomreach.io
 ```
 
 Then, build and run the React app as follows:
