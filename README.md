@@ -1,4 +1,4 @@
-# Layer0 + brX SaaS + React = ♥️
+# Layer0 + brX SaaS + React = 💜
 
 Reference SPA using the Bloomreach Experience [React SDK](https://www.npmjs.com/package/@bloomreach/react-sdk).
 The app is created using [create-react-app](https://github.com/facebook/create-react-app).
