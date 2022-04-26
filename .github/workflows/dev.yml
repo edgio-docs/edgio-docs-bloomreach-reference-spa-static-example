@@ -33,10 +33,10 @@ on:
     types: [published]
 
 env:
-  REACT_APP_BRXM_ENDPOINT: ${{secrets.REACT_APP_BRXM_ENDPOINT}}
-  BRXM_ENDPOINT: ${{secrets.BRXM_ENDPOINT}}
-  REACT_APP_GRAPHQL_SERVICE_URL: ${{secrets.REACT_APP_GRAPHQL_SERVICE_URL}}
-  GRAPHQL_SERVICE_URL: ${{secrets.GRAPHQL_SERVICE_URL}}
+  REACT_APP_BRXM_ENDPOINT: https://layer0-docs-bloomreach-layer0-example-saas-default.layer0-limelight.link/api
+  BRXM_ENDPOINT: trial-tnk8sgqr.bloomreach.io
+  REACT_APP_GRAPHQL_SERVICE_URL: https://layer0-docs-bloomreach-layer0-example-saas-default.layer0-limelight.link/graphql
+  GRAPHQL_SERVICE_URL: graphql.trial-tnk8sgqr.bloomreach.io
 
 jobs:
   deploy-to-layer0:
