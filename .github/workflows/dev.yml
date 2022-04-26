@@ -76,4 +76,4 @@ jobs:
         run: CI=false npm run build
       - name: Deploy to Layer0
         run: |
-          npm run deploy -- ${{'--branch=$BRANCH_NAME' || ''}} --token=${{secrets.LAYER0_DEPLOY_TOKEN}} --environment=default
+          npm run deploy -- ${{'--branch=$BRANCH_NAME' || ''}} --token=${{secrets.LAYER0_DEPLOY_TOKEN}} --environment=default --team=layer0-docs --site=bloomreach-layer0-example-saas
