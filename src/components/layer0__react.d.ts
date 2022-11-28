@@ -1,1 +1,1 @@
-declare module "@layer0/react";
+declare module "@edgio/react";

@@ -1,6 +1,6 @@
 {
-  "name": "bloomreach-layer0-static-saas-example",
-  "description": "Example React SPA for brX SaaS deployed on Layer0",
+  "name": "bloomreach-edgio-static-saas-example",
+  "description": "Example React SPA for brX SaaS deployed on Edgio",
   "version": "0.3.0-saas",
   "private": true,
   "engines": {
@@ -34,11 +34,11 @@
   },
   "devDependencies": {
     "@bloomreach/eslint-config": "^0.1",
-    "@layer0/cli": "^4.13.5",
-    "@layer0/core": "^4.13.5",
-    "@layer0/devtools": "^4.13.5",
-    "@layer0/prefetch": "^4.13.5",
-    "@layer0/react": "^4.13.6",
+    "@edgio/cli": "^5.0.4",
+    "@edgio/core": "^5.0.4",
+    "@edgio/devtools": "^5.0.4",
+    "@edgio/prefetch": "^5.0.4",
+    "@edgio/react": "^5.0.4",
     "@types/googlemaps": "^3.43",
     "@types/markerclustererplus": "^2.1",
     "@types/react": "^16.9",

@@ -1,4 +1,4 @@
-// This file was automatically added by layer0 deploy.
+// This file was automatically added by edgio deploy.
 // You should commit this file to source control.
 module.exports = {
   backends: {
@@ -38,10 +38,10 @@ module.exports = {
     },
   },
 
-  // The name of the site in Layer0 to which which this app should be deployed.
-  name: "@bloomreach/layer0-example-saas",
+  // The name of the site in Edgio to which which this app should be deployed.
+  name: "@bloomreach/edgio-example-saas",
 
-  // The name of the team in Layer0 to which which this app should be deployed.
+  // The name of the team in Edgio to which which this app should be deployed.
   // team: 'my-team-name',
 
   // Overrides the default path to the routes file. The path should be relative to the root of your app.
@@ -51,9 +51,9 @@ module.exports = {
   // Defaults to 200, which is the maximum allowed value.
   // prerenderConcurrency: 200,
 
-  // A list of glob patterns identifying which source files should be uploaded when running layer0 deploy --includeSources. This option
-  // is primarily used to share source code with Layer0 support personnel for the purpose of debugging. If omitted,
-  // layer0 deploy --includeSources will result in all files which are not gitignored being uploaded to Layer0.
+  // A list of glob patterns identifying which source files should be uploaded when running edgio deploy --includeSources. This option
+  // is primarily used to share source code with Edgio support personnel for the purpose of debugging. If omitted,
+  // edgio deploy --includeSources will result in all files which are not gitignored being uploaded to Edgio.
   //
   sources: [
     // '**/*', // include all files
@@ -61,8 +61,8 @@ module.exports = {
     // ".env",
   ],
 
-  // Set to true to include all packages listed in the dependencies property of package.json when deploying to Layer0.
-  // This option generally isn't needed as Layer0 automatically includes all modules imported by your code in the bundle that
+  // Set to true to include all packages listed in the dependencies property of package.json when deploying to Edgio.
+  // This option generally isn't needed as Edgio automatically includes all modules imported by your code in the bundle that
   // is uploaded during deployment
   //
   // includeNodeModules: true,
